@@ -14,11 +14,11 @@
 -create footer component / container
 -create accordian FAQ component / container
 -create opt in input component
-
-## Phase 2
-
 -create pages 
 -create header component / container
 -add firebase database / seed database
+
+## Phase 2
+
 -create signup and signin forms and add firebase auth
 
