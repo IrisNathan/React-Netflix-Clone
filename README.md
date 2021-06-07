@@ -7,7 +7,6 @@
 - [firebase](https://firebase.google.com/)
 - [fuse.js](https://fusejs.io/)
 
-## Phase 1
 
 -install dependencies
 -create jumbotron component / container
@@ -17,8 +16,7 @@
 -create pages 
 -create header component / container
 -add firebase database / seed database
-
-## Phase 2
-
 -create signup and signin forms and add firebase auth
+
+-WORK IN PROGRESS - NOT COMPLETE
 
