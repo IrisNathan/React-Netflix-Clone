@@ -8,7 +8,6 @@
 - [fuse.js](https://fusejs.io/)
 
 ## Completed
-
 - install dependencies
 - create jumbotron component / container
 - create footer component / container
@@ -19,6 +18,7 @@
 - add firebase database / seed database
 
 ## Work in Progress
+- create signup and signin forms and add firebase auth
 
--create signup and signin forms and add firebase auth
+
 
