@@ -4,3 +4,4 @@ export { default as Footer } from './footer';
 export { default as OptinForm } from './optin-form';
 export { default as Header } from './header';
 export { default as Feature } from './feature';
+export { default as Form } from './form';
