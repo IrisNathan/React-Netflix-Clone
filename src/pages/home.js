@@ -6,7 +6,7 @@ import { FooterContainer } from '../containers/footer';
 import { JumbotronContainer } from '../containers/jumbotron';
 
 export default function Home() {
-  return(
+  return (
     <>
       <HeaderContainer>
         <Feature>
@@ -14,10 +14,13 @@ export default function Home() {
           <Feature.SubTitle>Watch anywhere. Cancel anytime.</Feature.SubTitle>
 
           <OptinForm>
-            <OptinForm.Input placeholder="Email address" />
+            <OptinForm.Input placeholder='Email address' />
             <OptinForm.Button>Try it now</OptinForm.Button>
             <OptinForm.Break />
-            <OptinForm.Text>Ready to watch? Enter your email to create or restart your membership.</OptinForm.Text>
+            <OptinForm.Text>
+              Ready to watch? Enter your email to create or restart your
+              membership.
+            </OptinForm.Text>
           </OptinForm>
         </Feature>
       </HeaderContainer>
@@ -25,6 +28,6 @@ export default function Home() {
       <JumbotronContainer />
       <FaqsContainer />
       <FooterContainer />
-    </> 
+    </>
   );
 }
