@@ -11,8 +11,7 @@ render(
     <FirebaseContext.Provider value={{ firebase }}>
       <GlobalStyles />
       <App />
-    </FirebaseContext.Provider> 
-  </>, 
-  document.getElementById('root'));
-
-
+    </FirebaseContext.Provider>
+  </>,
+  document.getElementById('root')
+);
