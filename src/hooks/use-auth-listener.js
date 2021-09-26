@@ -10,7 +10,7 @@ export default function useAuthListener() {
   const { firebase } = useContext(FirebaseContext);
 
   useEffect(() => {
-    const listner = firebase.auth().onAuthStateChanged((authUser) => {
+    const listener = firebase.auth().onAuthStateChanged((authUser) => {
       if (authUser) {
         localStorage.setItem('authUser', JSON.stringify(authUser));
         setUser(authUser);

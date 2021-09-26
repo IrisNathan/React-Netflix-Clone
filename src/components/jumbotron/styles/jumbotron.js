@@ -15,7 +15,7 @@ export const Inner = styled.div`
   justify-content: space-between;
   max-width: 1100px;
   margin: auto;
-  width: 100%
+  width: 100%;
 
   @media (max-width: 1000px) {
     flex-direction: column;

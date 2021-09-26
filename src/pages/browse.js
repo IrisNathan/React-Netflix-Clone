@@ -8,5 +8,6 @@ export default function Browse() {
   const { films } = useContent('films');
   const slides = selectionFilter({ series, films });
 
+  // pass props to the BrowseContainer
   return <BrowseContainer slides={slides} />;
 }

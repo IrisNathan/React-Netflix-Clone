@@ -1,0 +1,9 @@
+{
+  "short_name": "NetflixClone",
+  "name": "Netflix Clone in React",
+  
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
